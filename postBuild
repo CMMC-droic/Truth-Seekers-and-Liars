@@ -1,0 +1,5 @@
+#!/bin/bash
+wget http://www.dlvsystem.com/files/dlv.i386-apple-darwin.bin -O dlv
+chmod +x dlv
+mkdir -p /usr/local/bin
+mv dlv /usr/local/bin/
